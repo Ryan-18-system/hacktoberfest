@@ -1,3 +1,10 @@
+
+
+const times = ["grêmio","flamengo","corintians","palmeiras","Santos"]
+times.forEach((time)=>{
+    console.log(time)
+})
+
 const idPiada = document.getElementById('piada')
 const gerarPiada = document.getElementById('gerarPiada')
 
