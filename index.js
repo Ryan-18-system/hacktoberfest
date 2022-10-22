@@ -1,8 +1,8 @@
 
-const times = [{ selecao: "Brasil", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Argentina", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Alemanhã", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Camarões", pontos: 0, partidas: 0, gols: 0 }]
+const selecoes = [{ selecao: "Brasil", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Argentina", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Alemanhã", pontos: 0, partidas: 0, gols: 0 }, { selecao: "Camarões", pontos: 0, partidas: 0, gols: 0 }]
 
 
-console.log(...times)
+console.log(...selecoes)
 
 const times = ["grêmio","flamengo","corintians","palmeiras","Santos"]
 times.forEach((time)=>{
